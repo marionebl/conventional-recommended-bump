@@ -2,8 +2,8 @@
 var concat = require('concat-stream');
 var conventionalCommitsFilter = require('conventional-commits-filter');
 var conventionalCommitsParser = require('conventional-commits-parser');
-var gitLatestSemverTag = require('git-latest-semver-tag');
-var gitRawCommits = require('git-raw-commits');
+var gitLatestSemverTag = require('@marionebl/git-latest-semver-tag');
+var gitRawCommits = require('@marionebl/git-raw-commits');
 var objectAssign = require('object-assign');
 
 var VERSIONS = ['major', 'minor', 'patch'];
